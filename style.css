@@ -1,0 +1,37 @@
+.nav{
+    background-color: rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title{
+    color: whitesmoke;
+}
+
+.nav-links{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.active{
+    color: whitesmoke;
+}
+
+.active:hover{
+    color: cornflowerblue;
+}
+
+.btn{
+    color: white;
+    background-color: cornflowerblue;
+    height: 35px;
+    width: 100px;
+    box-shadow: 2px 2px black;
+    border-width: 2px;
+    border-color: black;
+}
+.btn:hover{
+    color: cornflowerblue;
+    background-color: white;
+}
